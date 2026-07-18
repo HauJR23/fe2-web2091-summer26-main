@@ -1,16 +1,50 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "title": "Tiểu thuyết",
+      "description": "Danh mục truyện tiểu thuyết",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "Kinh dị",
+      "description": "Danh mục truyện kinh dị",
+      "active": true
+    },
+    {
+      "title": "eqeqeqeq",
+      "active": true,
+      "id": 3
+    },
+    {
+      "title": "Truyện tranh",
+      "description": "hayyyyyyyy",
+      "active": true,
+      "id": 4
+    }
+  ],
   "stories": [
     {
       "id": 1,
       "title": "Harry Potter Và Hòn Đá Phù Thủy",
       "author": "J. K. Rowling",
-      "cover": "https://picsum.photos/300/450?random=1"
+      "cover": "https://picsum.photos/300/450?random=1",
+      "categoryId": 1
     },
     {
       "id": 2,
       "title": "Harry Potter Và Hòn Đá Phù Thủy",
       "author": "J. K. Rowling",
-      "cover": "https://picsum.photos/300/450?random=1"
+      "cover": "https://picsum.photos/300/450?random=1",
+      "categoryId": 2
+    },
+    {
+      "title": "Truyện 18+++",
+      "description": "truyện ngollll",
+      "categoryId": 4,
+      "createdAt": "2026-07-18T09:39:31.015Z",
+      "id": 3
     }
   ]
 }
